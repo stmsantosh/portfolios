@@ -1,0 +1,11 @@
+.hero-section {
+    background: #f9f9f9;
+}
+.hero-main {
+    padding: 100px 0;
+}
+.hero-main h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    color: #2d2e32;
+}

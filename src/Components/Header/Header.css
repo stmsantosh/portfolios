@@ -1,0 +1,22 @@
+.header {
+    background: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 9%);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar a {
+    text-decoration: none;
+    color: #2d2e32;
+    font-weight: 600;
+    font-size: 17px;
+}

@@ -8,4 +8,50 @@
     font-size: 55px;
     line-height: 1.2;
     color: #2d2e32;
+    font-weight: 800;
+}
+
+.left-h img {
+    width: 60px;
+    height: 60px;
+}
+.left-h p {
+    color: #767676;
+    font-family: Mulish,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.hero-section-content>div {
+    flex-basis: 50%;
+}
+
+.hero-section-content {
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-link a i {
+    font-size: 30px;
+    color: #000;
+}
+
+.portfolio-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-h {
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url('../../assets/heroimg.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 35rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 35rem;
 }
